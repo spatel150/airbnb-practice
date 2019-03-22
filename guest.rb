@@ -30,7 +30,7 @@ class Guest
     end 
 
     def self.pro_traveller
-        @@all.select {|guest| guest.trip_count > 1 }
+        @@all.select {|guest| guest.trip_count > 1}
     end 
 
 end 
